@@ -19,35 +19,37 @@ platform :ios do
 
   	tagName = options[:tag] #这个参数是跟在BasicModulesLib 后面的  
   	# targetName = options[:target]
-    # targetName = "TestFastLane_Example"
+    targetName = "TestFastLane"
 
     # add actions here: https://docs.fastlane.tools/actions
    #1. pod install 
    		cocoapods(clean: true,podfile: "./Example/Podfile")
+  
 
-   #2. git add .
-   		git_add(path: ".")
-   		git_commit(path: ".", message: "use fastlane")
-   		push_to_git_remote # simple version. pushes "master" branch to "origin" remote
+########上传到git仓库同时发布到cocoapods
+     #2. git add .
+     		git_add(path: ".")
+     		git_commit(path: ".", message: "use fastlane")
+     		push_to_git_remote # simple version. pushes "master" branch to "origin" remote
 
-  if git_tag_exists(tag: tagName)
-    UI.message("版本号已经存在 #{tagName} ,即将删除")
-    remove_tag(tag: tagName)
-    end
-   
-   #3. git tag 
-   # 这里如果 出错了 需要删除 之前提交的tag  # 1. git tag -d 0.1.0   2. git push origin:0.1.0
-	add_git_tag(tag: tagName)
-	push_git_tags 
+    if git_tag_exists(tag: tagName)
+      UI.message("版本号已经存在 #{tagName} ,即将删除")
+      remove_tag(tag: tagName)
+      end
+     
+     #3. git tag 
+     # 这里如果 出错了 需要删除 之前提交的tag  # 1. git tag -d 0.1.0   2. git push origin:0.1.0
+  	add_git_tag(tag: tagName)
+  	push_git_tags 
 
- #   #4. pod spec lint 
- if pod_lib_lint(allow_warnings: true)
-   UI.message("验证已经通过正在上传")
-  pod_push(path: "TestFastLane.podspec",allow_warnings: true)
-  else
-  UI.message("验证失败")
-   # pod_push(path: "#{targetName}.podspec",allow_warnings: true)
- end
+   #   #4. pod spec lint 
+   if pod_lib_lint(allow_warnings: true,verbose: false,sources:['./#{targetName}.podspec'])
+     UI.message("验证已经通过正在上传")
+     pod_push(path: "#{targetName}.podspec",allow_warnings: true)
+    else
+    UI.message("验证失败")
+     # pod_push(path: "#{targetName}.podspec",allow_warnings: true)
+   end
    
    
   end
