@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018C36D9A449D9095B996B29216D8EB5 /* WBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06666D78E17CA30BB8293D128FCE2C82 /* WBUser.swift */; };
 		2F42006808B9C3C3033C16C1F47C3979 /* Pods-TestFastLane_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBB3EAFFE20186FDC10EC97234EAD48 /* Pods-TestFastLane_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3209A80406CF06B16CB69FD6273885CF /* Pods-TestFastLane_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6405D30E29DD026F69870F37AF670 /* Pods-TestFastLane_Example-dummy.m */; };
+		3A0CEB13DFD6BEFC44F717CBE565CDFB /* WBStatusPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12166D36E40618324B503E4580E6D0D /* WBStatusPicture.swift */; };
 		4EF0B7B53BCF522C35C1289761E101CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		51DB4363A1FAE2343E21E53FA15FA3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7617F61A2488C67C2C0F4B8F90737660 /* Pods-TestFastLane_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1DF85CD7375C6CA554772E51E3C33E /* Pods-TestFastLane_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77C4665ABB09D0165AC32E64C5EB7BD5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF20087E3B7CB698A2AF336B3CC610C /* ReplaceMe.swift */; };
+		8E84A3E823417B73ACDEEA736E2FF35C /* TestFastLane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A3F7C59579ABE072B74FC47F21C9BB /* TestFastLane-dummy.m */; };
 		973EE05469B2810118D4FC323526A935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A74ADEAC991A09DC608AED5412FC712A /* TestFastLane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 248300551AE934B32534072A2BFF8148 /* TestFastLane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D28463833F1A075E2B954C172833C90 /* WBStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6DA09EE591A674700497CC5C20219 /* WBStatus.swift */; };
+		A74ADEAC991A09DC608AED5412FC712A /* TestFastLane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BF9F6D3430B3240CAC240C8ACA0D62 /* TestFastLane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16A12B4CD299F04BF8431364AE8C01D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19A514CBBE255F03FA70F19D01658C /* TestModel.swift */; };
 		F8076022A662F5A941595E6F890089CB /* Pods-TestFastLane_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FFFA90F952AE44B2D051B1073CB908 /* Pods-TestFastLane_Tests-dummy.m */; };
-		F978805EC1D0CCD7FA7B0EE804728299 /* TestFastLane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DD100504B0AE3B556B275517141564 /* TestFastLane-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +40,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06666D78E17CA30BB8293D128FCE2C82 /* WBUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBUser.swift; path = TestFastLane/Classes/WBUser.swift; sourceTree = "<group>"; };
+		06D6DA09EE591A674700497CC5C20219 /* WBStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBStatus.swift; path = TestFastLane/Classes/WBStatus.swift; sourceTree = "<group>"; };
 		0890324F62342ECC9A9C2FED1B40FE54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A3F7C59579ABE072B74FC47F21C9BB /* TestFastLane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestFastLane-dummy.m"; sourceTree = "<group>"; };
 		0CBB3EAFFE20186FDC10EC97234EAD48 /* Pods-TestFastLane_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestFastLane_Example-umbrella.h"; sourceTree = "<group>"; };
 		0F1DF85CD7375C6CA554772E51E3C33E /* Pods-TestFastLane_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestFastLane_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1B669BB6285642083A7B8149431ED635 /* Pods-TestFastLane_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestFastLane_Tests.modulemap"; sourceTree = "<group>"; };
-		248300551AE934B32534072A2BFF8148 /* TestFastLane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestFastLane-umbrella.h"; sourceTree = "<group>"; };
-		2B3CF716E2D13A159CFE560A1CEBCB6D /* TestFastLane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestFastLane.xcconfig; sourceTree = "<group>"; };
-		322646AA71C7C01FF395E134F0095D84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		324BD84AEBF0E92D12A81C949A445D39 /* Pods_TestFastLane_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestFastLane_Tests.framework; path = "Pods-TestFastLane_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3797BDFFE34F850A3E303A7947ACAA3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		527C40ACFB0DF8672E9B007AB769879F /* Pods-TestFastLane_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestFastLane_Example.modulemap"; sourceTree = "<group>"; };
 		54C073E095E2DDCF0EFFA0D07A400B3A /* Pods-TestFastLane_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFastLane_Example-resources.sh"; sourceTree = "<group>"; };
 		56A02D544CB7C160967BC44F6CB86512 /* Pods-TestFastLane_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFastLane_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5728D1448A3BC9F8A5F73A484EA0FD56 /* TestFastLane.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TestFastLane.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C3142D105562111066A0291E2B17016 /* Pods-TestFastLane_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestFastLane_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DF20087E3B7CB698A2AF336B3CC610C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TestFastLane/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5ECAEC09019947752C299365A4868620 /* Pods-TestFastLane_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFastLane_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		65DD100504B0AE3B556B275517141564 /* TestFastLane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestFastLane-dummy.m"; sourceTree = "<group>"; };
+		622EA90C03BC6E423B054DEBCFBCAF52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C19A514CBBE255F03FA70F19D01658C /* TestModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestModel.swift; path = TestFastLane/Classes/TestModel.swift; sourceTree = "<group>"; };
 		7D73A4DFE96660EDA2F7C46FBC31FBE6 /* TestFastLane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestFastLane.framework; path = TestFastLane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82D522540F83A850B467A6B40C309CF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		86FFFA90F952AE44B2D051B1073CB908 /* Pods-TestFastLane_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestFastLane_Tests-dummy.m"; sourceTree = "<group>"; };
-		8C451F9B8497017A999AD82CBBB12EED /* TestFastLane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestFastLane.modulemap; sourceTree = "<group>"; };
+		908D8D148CA847B21E2A3BDE5C88A627 /* TestFastLane.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TestFastLane.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D73B1FC97B15770EFEFD85E0C99A2F9 /* Pods_TestFastLane_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestFastLane_Example.framework; path = "Pods-TestFastLane_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC75958734B77388125C2348876111D /* Pods-TestFastLane_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFastLane_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A0E3469C0A020EBBAD38C8F367BB78C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A89E5392A904257D395693DB9F075F7F /* Pods-TestFastLane_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFastLane_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ACFBA08A9C14E1FD7203327407E2BD6B /* TestFastLane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestFastLane-prefix.pch"; sourceTree = "<group>"; };
+		AD582ABEF186CEBCCB840BD532C26E09 /* TestFastLane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestFastLane-prefix.pch"; sourceTree = "<group>"; };
+		B0A372C62F5011E10DB787C2ACD8439C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8FC265BC61584780F30D5F77EC3E89F /* TestFastLane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestFastLane.xcconfig; sourceTree = "<group>"; };
 		BE5422F48E8F2F357EF8931911521E4F /* Pods-TestFastLane_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFastLane_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1E30112740C34E24D94F3CF8C7ADE61 /* Pods-TestFastLane_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFastLane_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C79FC23DC7A18B0C11257725F85DA6E3 /* TestFastLane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestFastLane.modulemap; sourceTree = "<group>"; };
 		CEA52E903C681D64E8151127884F16EF /* Pods-TestFastLane_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFastLane_Tests-resources.sh"; sourceTree = "<group>"; };
 		D16C127DF38A74024062E1AE87D1D2B5 /* Pods-TestFastLane_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFastLane_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BF9F6D3430B3240CAC240C8ACA0D62 /* TestFastLane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestFastLane-umbrella.h"; sourceTree = "<group>"; };
+		E12166D36E40618324B503E4580E6D0D /* WBStatusPicture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBStatusPicture.swift; path = TestFastLane/Classes/WBStatusPicture.swift; sourceTree = "<group>"; };
 		E4A6405D30E29DD026F69870F37AF670 /* Pods-TestFastLane_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestFastLane_Example-dummy.m"; sourceTree = "<group>"; };
 		E7CEE779A15308E06379E3ADF9D75C0C /* Pods-TestFastLane_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFastLane_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB831F332C813E738093D5AEB0959964 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,29 +108,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C78C06E630358067829355EC2E4A78B /* Support Files */ = {
+		038F589D046B6D5DB037FA4F9815A66E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0E3469C0A020EBBAD38C8F367BB78C3 /* Info.plist */,
-				8C451F9B8497017A999AD82CBBB12EED /* TestFastLane.modulemap */,
-				2B3CF716E2D13A159CFE560A1CEBCB6D /* TestFastLane.xcconfig */,
-				65DD100504B0AE3B556B275517141564 /* TestFastLane-dummy.m */,
-				ACFBA08A9C14E1FD7203327407E2BD6B /* TestFastLane-prefix.pch */,
-				248300551AE934B32534072A2BFF8148 /* TestFastLane-umbrella.h */,
+				33DE2C369B274703C1820D701BE747EF /* TestFastLane */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestFastLane";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		52B7162617AD877A3C0CAA81A779F173 /* TestFastLane */ = {
+		33DE2C369B274703C1820D701BE747EF /* TestFastLane */ = {
 			isa = PBXGroup;
 			children = (
-				5DF20087E3B7CB698A2AF336B3CC610C /* ReplaceMe.swift */,
-				A91AD1073B1B5627FCE39F729F59C9F3 /* Pod */,
-				4C78C06E630358067829355EC2E4A78B /* Support Files */,
+				6C19A514CBBE255F03FA70F19D01658C /* TestModel.swift */,
+				06D6DA09EE591A674700497CC5C20219 /* WBStatus.swift */,
+				E12166D36E40618324B503E4580E6D0D /* WBStatusPicture.swift */,
+				06666D78E17CA30BB8293D128FCE2C82 /* WBUser.swift */,
+				8D012E48F4BA1A0BDF8CA2D5DD7FA723 /* Pod */,
+				53EE3EB0B0B86BECA1428F6E0BC05280 /* Support Files */,
 			);
 			name = TestFastLane;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		53EE3EB0B0B86BECA1428F6E0BC05280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				622EA90C03BC6E423B054DEBCFBCAF52 /* Info.plist */,
+				C79FC23DC7A18B0C11257725F85DA6E3 /* TestFastLane.modulemap */,
+				B8FC265BC61584780F30D5F77EC3E89F /* TestFastLane.xcconfig */,
+				09A3F7C59579ABE072B74FC47F21C9BB /* TestFastLane-dummy.m */,
+				AD582ABEF186CEBCCB840BD532C26E09 /* TestFastLane-prefix.pch */,
+				E0BF9F6D3430B3240CAC240C8ACA0D62 /* TestFastLane-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TestFastLane";
 			sourceTree = "<group>";
 		};
 		6F8C825A79F4E16495050DA80975C234 /* Targets Support Files */ = {
@@ -150,19 +167,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				890D965BC712748DCA2FA23315A08D3A /* Development Pods */,
+				038F589D046B6D5DB037FA4F9815A66E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				758A857A17A40B891B170E07625637FD /* Products */,
 				6F8C825A79F4E16495050DA80975C234 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		890D965BC712748DCA2FA23315A08D3A /* Development Pods */ = {
+		8D012E48F4BA1A0BDF8CA2D5DD7FA723 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				52B7162617AD877A3C0CAA81A779F173 /* TestFastLane */,
+				B0A372C62F5011E10DB787C2ACD8439C /* LICENSE */,
+				3797BDFFE34F850A3E303A7947ACAA3A /* README.md */,
+				908D8D148CA847B21E2A3BDE5C88A627 /* TestFastLane.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9DC31E33BFEC6AA664C1DAA4BD86B723 /* Pods-TestFastLane_Tests */ = {
@@ -181,16 +200,6 @@
 			);
 			name = "Pods-TestFastLane_Tests";
 			path = "Target Support Files/Pods-TestFastLane_Tests";
-			sourceTree = "<group>";
-		};
-		A91AD1073B1B5627FCE39F729F59C9F3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				82D522540F83A850B467A6B40C309CF0 /* LICENSE */,
-				322646AA71C7C01FF395E134F0095D84 /* README.md */,
-				5728D1448A3BC9F8A5F73A484EA0FD56 /* TestFastLane.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -279,7 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 261D41AC4267BEFF854017F52990718B /* Build configuration list for PBXNativeTarget "TestFastLane" */;
 			buildPhases = (
-				D1F1106A8860855ACD0409AB5A6CD61C /* Sources */,
+				CBF5C06E6773E1227B99D670F3FD4383 /* Sources */,
 				3F0FAB0B8126BBCE4BE7B956723F7D57 /* Frameworks */,
 				D781462FF251BD2B81CAE02D056CC5E2 /* Headers */,
 			);
@@ -355,12 +364,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F1106A8860855ACD0409AB5A6CD61C /* Sources */ = {
+		CBF5C06E6773E1227B99D670F3FD4383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C4665ABB09D0165AC32E64C5EB7BD5 /* ReplaceMe.swift in Sources */,
-				F978805EC1D0CCD7FA7B0EE804728299 /* TestFastLane-dummy.m in Sources */,
+				8E84A3E823417B73ACDEEA736E2FF35C /* TestFastLane-dummy.m in Sources */,
+				E16A12B4CD299F04BF8431364AE8C01D /* TestModel.swift in Sources */,
+				9D28463833F1A075E2B954C172833C90 /* WBStatus.swift in Sources */,
+				3A0CEB13DFD6BEFC44F717CBE565CDFB /* WBStatusPicture.swift in Sources */,
+				018C36D9A449D9095B996B29216D8EB5 /* WBUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +396,7 @@
 /* Begin XCBuildConfiguration section */
 		3B60FF3AC2008C3C942B450B03A72EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B3CF716E2D13A159CFE560A1CEBCB6D /* TestFastLane.xcconfig */;
+			baseConfigurationReference = B8FC265BC61584780F30D5F77EC3E89F /* TestFastLane.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,7 +687,7 @@
 		};
 		E8F955021D5C10D2FD09D71254EEE309 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B3CF716E2D13A159CFE560A1CEBCB6D /* TestFastLane.xcconfig */;
+			baseConfigurationReference = B8FC265BC61584780F30D5F77EC3E89F /* TestFastLane.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
