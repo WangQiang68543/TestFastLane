@@ -1,0 +1,16 @@
+PODS:
+  - TestFastLane (0.1.0)
+
+DEPENDENCIES:
+  - TestFastLane (from `../`)
+
+EXTERNAL SOURCES:
+  TestFastLane:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestFastLane: 98a52c4dd6e70c7a308724ebe94c8ba686bff405
+
+PODFILE CHECKSUM: 276793ecf42fa366bc22f7e65528e9e38fa3f7e0
+
+COCOAPODS: 1.5.0

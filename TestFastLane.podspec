@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestFastLane'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestFastLane.'
+  s.summary          = '测试使用'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这里主要用来学习测试FastLane的使用,上传到cocoapods以及打包等
                        DESC
 
   s.homepage         = 'https://github.com/WangQiang68543/TestFastLane'

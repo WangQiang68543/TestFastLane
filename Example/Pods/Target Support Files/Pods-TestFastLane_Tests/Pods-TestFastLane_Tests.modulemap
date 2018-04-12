@@ -1,0 +1,6 @@
+framework module Pods_TestFastLane_Tests {
+  umbrella header "Pods-TestFastLane_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module TestFastLane {
+  umbrella header "TestFastLane-umbrella.h"
+
+  export *
+  module * { export * }
+}
