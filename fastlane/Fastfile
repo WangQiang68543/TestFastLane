@@ -25,21 +25,20 @@ platform :ios do
    #1. pod install 
    		cocoapods(clean: true,podfile: "./Example/Podfile")
 
-   if git_tag_exists(tag: tagName)
-    UI.message("版本号已经存在 #{tagName} ,即将删除")
-    remove_tag(tag: tagName)
-    end
    #2. git add .
    		git_add(path: ".")
    		git_commit(path: ".", message: "use fastlane")
    		push_to_git_remote # simple version. pushes "master" branch to "origin" remote
 
+  if git_tag_exists(tag: tagName)
+    UI.message("版本号已经存在 #{tagName} ,即将删除")
+    remove_tag(tag: tagName)
+    end
    
- #   #3. git tag 
- #   		# Alternatively, you can specify your own tag. Note that if you do specify a tag, all other arguments are ignored.
-	# # 这里如果 出错了 需要删除 之前提交的tag  # 1. git tag -d 0.1.0   2. git push origin:0.1.0
-	# add_git_tag(tag: tagName)
-	# push_git_tags 
+   #3. git tag 
+   # 这里如果 出错了 需要删除 之前提交的tag  # 1. git tag -d 0.1.0   2. git push origin:0.1.0
+	add_git_tag(tag: tagName)
+	push_git_tags 
 
  #   #4. pod spec lint 
  if pod_lib_lint(allow_warnings: true)
