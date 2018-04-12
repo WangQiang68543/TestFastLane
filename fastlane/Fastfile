@@ -45,6 +45,8 @@ platform :ios do
  if pod_lib_lint(allow_warnings: true)
    UI.message("验证已经通过正在上传")
   pod_push(path: "TestFastLane.podspec",allow_warnings: true)
+  else
+  UI.message("验证失败")
    # pod_push(path: "#{targetName}.podspec",allow_warnings: true)
  end
    
